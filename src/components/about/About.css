@@ -1,0 +1,191 @@
+.about{
+    height: 30rem;
+    width: 100vw;
+    justify-content: center; /* Center horizontally */
+   overflow:hidden;
+    display: flex;
+    /* align-items: center; */
+}
+.img {
+    height: 15rem; /* Adjust the height as needed */
+    width: 20rem; /* Adjust the width as needed */
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.headingabout,
+.headingh3about,
+.paraabout,
+.para1about {
+    text-align: center; /* Center the text within its container */
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Prevent text overflow */
+}
+
+.aboutimg{
+    padding-top: 5rem;
+    height: 20rem;
+    padding-left: 3rem;
+}
+.aboutsection{
+    height: 35rem;
+    width: 75vw;
+    text-align: center;
+  
+    
+
+}
+.headingabout{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.headingh3about{
+    text-align: center;
+    color: rgb(152, 149, 149);
+}
+.paraabout {
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-left: 1rem !important;
+    margin-right: 2rem !important;
+    word-wrap: break-word; /* Allow long words to break into a new line */
+    overflow-wrap: anywhere;
+}
+  
+.para1about {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    margin-left: 2rem !important;
+    margin-right: 1.8rem !important;
+    word-wrap: break-word; /* Allow long words to break into a new line */
+}
+
+.btnabout1{
+    height: 3rem;
+    width: 10vw;
+    margin-left: 2rem ;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+   font-size: 0.90rem;
+}
+.headingabout:hover{
+    color: rgb(0,255,255);
+}
+.headingh3about:hover{
+    color: white;
+}
+.btnabout1:hover{
+    background-color: rgb(0,255,255);
+}
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
+
+    .about {
+        height: 30rem !important;
+        width: 100vw !important;
+        display: flex !important;
+        /* align-items: center; */
+    }
+    
+    .img {
+        display: none !important;
+    }
+    
+    .aboutsection {
+        height: 35rem !important;
+        width: 100vw !important;
+    }
+    
+    .headingabout {
+        font-size: 1.7rem !important;
+        text-align: center !important;
+    }
+    
+    .headingh3about {
+        text-align: center !important;
+        color: rgb(152, 149, 149) !important;
+    }
+    
+    .paraabout {
+        margin-top: 1rem !important;
+        font-size: 1.1rem !important;
+        margin-left: 2rem !important;
+        margin-right: 1.8rem !important;
+    }
+    
+    .para1about {
+        margin-top: 1rem !important;
+        font-size: 1.1rem !important;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+    }
+    
+    .btnabout1 {
+        height: 3rem !important;
+        width: 50vw !important;
+        margin-left: 11rem !important;
+        margin-top: 2rem !important;
+        border-radius: 5rem !important;
+        border: none !important;
+        background-color: white !important;
+        font-weight: 700 !important;
+        font-size: 0.90rem !important;
+    }
+    
+    .headingabout:hover {
+        color: rgb(0, 255, 255) !important;
+    }
+    
+    .headingh3about:hover {
+        color: white !important;
+    }
+    
+    .btnabout1:hover {
+        background-color: rgb(0, 255, 255) !important;
+    }
+}    
+/* For screens up to 767px width (typical mobile screens) */
+@media only screen and (max-width: 767px) {
+    .about {
+        height: auto !important; /* Let the height adjust based on content */
+        width: 100vw !important;
+        display: block !important; /* Reset display to default block */
+    }
+
+    .img {
+        display: block !important; /* Show the image */
+    }
+
+    .aboutsection {
+        height: auto !important; /* Let the height adjust based on content */
+        width: 100vw !important;
+    }
+
+    .headingabout,
+    .headingh3about,
+    .paraabout,
+    .para1about {
+        text-align: center !important;
+        margin: 1rem 0 !important; /* Add some margin for readability */
+        font-size: 1rem !important; /* Adjust font size for mobile */
+    }
+
+    .btnabout1 {
+        width: 80vw !important; /* Make the button full width */
+        margin: 1rem auto !important; /* Center the button */
+        height: auto !important; /* Let the height adjust based on content */
+        border-radius: 0.5rem !important; /* Smaller border radius */
+        font-size: 0.9rem !important;
+    }
+
+    /* Hover effects for mobile might not be as prominent, but you can still keep them if needed */
+    .headingabout:hover,
+    .headingh3about:hover {
+        color: initial !important; /* Reset color on hover */
+    }
+
+    .btnabout1:hover {
+        background-color: initial !important; /* Reset background color on hover */
+    }
+}

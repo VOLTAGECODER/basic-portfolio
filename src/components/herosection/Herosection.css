@@ -1,0 +1,118 @@
+.herosection{
+    color: white;
+    height: 35rem;
+  background-color:rgb(13,13,13);
+    width: 100vw;
+    display: flex;
+}
+.left{
+
+height: 40rem;
+width: 50vw;
+padding-top: 15rem!important;
+padding-left:6rem!important;
+}
+.herosectionh1{
+    font-size: 1.5rem;
+}
+.herosectionh1 span{
+    color: rgb(0,255,255);
+}
+.stack{
+font-size: 1.5rem;
+}
+.right{
+height: 40rem;
+width: 50vw;
+
+
+}
+.right img{
+    height: 30rem;
+    padding-top: 8rem !important;
+    padding-left: 10rem !important;
+ 
+    
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
+    .herosection{
+        color: white;
+        height: 35rem;
+      background-color:rgb(13,13,13);
+        width: 100vw;
+        display: flex;
+    }
+    .left{
+    
+    height: 40rem;
+    width: 60vw;
+  
+    padding-top: 15rem;
+    padding-left:2rem;
+    }
+    .herosectionh1{
+        font-size: 1.1rem;
+    }
+    .herosectionh1 span{
+        color: rgb(0,255,255);
+    }
+    .stack{
+    font-size: 1.1rem;
+    }
+    .right{
+        height: 40rem;
+    width: 50vw;
+   
+  padding-left: 0;
+    }
+ 
+ .right img{
+    height: 30rem;
+    padding-top: 8rem;
+    padding-left: 0;
+ 
+    
+ }
+   
+    
+}
+/* For screens up to 767px width (typical mobile screens) */
+@media only screen and (max-width: 767px) {
+    .herosection {
+        padding-top: 6rem; /* Add padding to create space between content and navbar */
+        height: auto !important; /* Let the height adjust based on content */
+        background-color: rgb(13, 13, 13) !important; /* Background color adjustment */
+        width: 100vw !important;
+        display: block !important; /* Reset display to default block */
+        padding: 2rem 0; /* Add padding for better spacing */
+        text-align: center; /* Center align text */
+    }
+
+    .left,
+    .right {
+        height: auto !important; /* Let the height adjust based on content */
+        width: 100vw !important; /* Full width for mobile */
+        padding: 0 !important; /* Reset padding */
+    }
+
+    .herosectionh1 {
+        font-size: 1.5rem !important; /* Increase font size for better readability */
+    }
+
+    .herosectionh1 span {
+        color: rgb(0, 255, 255) !important;
+    }
+
+    .stack {
+        font-size: 1rem !important; /* Adjust font size for mobile */
+        margin-bottom: 1rem; /* Add margin for better spacing */
+    }
+
+    .right img {
+        height: auto !important; /* Let the height adjust based on content */
+        max-width: 100%; /* Make sure image doesn't overflow */
+        padding-top: 1rem; /* Add padding for spacing */
+    }
+}

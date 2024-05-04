@@ -1,0 +1,120 @@
+.navbar{
+    height: 6rem;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo h1{
+font-size: 2rem;
+}
+.logo h1 span{
+    color: rgb(0, 255, 255);
+}
+
+.list{
+    margin-right: 2rem;
+    margin-left: 3rem !important;
+   font-size: 1rem;
+}
+.list:hover{
+    padding-bottom: 0.55rem;
+    border-bottom: 4px solid rgb(0, 255, 255);
+    color: rgb(0, 255, 255);
+}
+.btn{
+    height: 2rem;
+    width: 10vw;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border-radius: 5rem;
+}
+.btn:hover{
+    background-color: rgb(0, 255, 255);
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+    .navbar {
+        height: 6rem !important;
+        width: 100vw !important;
+        background-color: black !important;
+        position: fixed !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+    }
+    .logo h1 {
+        font-size: 1.8rem !important;
+    }
+    .logo h1 span {
+        color: rgb(0, 255, 255) !important;
+    }
+    .list {
+        margin-left: 2rem !important;
+        font-size: 2rem !important;
+    }
+    .list:hover {
+        padding-bottom: 0.55rem !important;
+        border-bottom: 4px solid rgb(0, 255, 255) !important;
+        color: rgb(0, 255, 255) !important;
+    }
+    .btn {
+        height: 2rem !important;
+        width: 15vw !important;
+        border: none !important;
+        background-color: white !important;
+        color: black !important;
+        font-weight: 700 !important;
+        border-radius: 5rem !important;
+    }
+    .btn:hover {
+        background-color: rgb(0, 255, 255) !important;
+    }
+}
+/* For screens up to 767px width (typical mobile screens) */
+@media only screen and (max-width: 767px) {
+    .navbar {
+        height: 4rem !important; /* Adjust height for mobile */
+        width: 100vw !important;
+        background-color: black !important;
+        position: fixed !important;
+        top: 0; /* Place the navbar at the top */
+        left: 0; /* Align the navbar to the left */
+        z-index: 1000; /* Ensure the navbar is above other content */
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important; /* Align items with space between */
+        padding: 0 1rem; /* Add padding for better spacing */
+    }
+
+    .logo h1 {
+        font-size: 1.5rem !important; /* Adjust font size for mobile */
+    }
+
+    .list {
+        margin-left: 0 !important; /* Reset margin for mobile */
+        font-size: 1.5rem !important; /* Adjust font size for mobile */
+    }
+
+    .list:hover {
+        padding-bottom: 0 !important; /* Remove padding on hover for mobile */
+        border-bottom: none !important; /* Remove border on hover for mobile */
+        color: rgb(0, 255, 255) !important;
+    }
+
+    .btn {
+        height: 2.5rem !important; /* Adjust height for mobile */
+        width: auto !important; /* Allow button width to adjust */
+        padding: 0.5rem 1rem !important; /* Add padding for better spacing */
+        border-radius: 3rem !important; /* Smaller border radius */
+        font-size: 1rem !important; /* Adjust font size for mobile */
+    }
+
+    .btn:hover {
+        background-color: rgb(0, 255, 255) !important;
+    }
+}

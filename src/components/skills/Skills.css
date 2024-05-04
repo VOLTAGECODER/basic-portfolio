@@ -1,0 +1,158 @@
+.skills{
+    height: 23rem;
+    width: 100vw;
+ 
+}
+.headingskills{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.skills1{
+    height: 20rem;
+    width: 100vw;
+    display: flex;
+    
+}
+
+.react{
+    height: 13rem;
+    width: 17vw;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 50%;
+}
+.reactimg2{
+    height: 6rem;
+margin-left: 3rem !important;
+margin-top: 3rem !important ;
+    
+
+}
+.htmlimg1{
+    margin-left: 9rem!important;
+height: 6rem;
+margin-top: 5rem!important;
+}
+.tailwind{
+    height: 13rem;
+    width: 17vw;
+    margin-left: 6rem!important;
+    margin-top: 2rem!important;
+    background-color: white;
+    border-radius: 50%;
+}
+.tailwindimg1{
+    height: 6rem;
+    margin-top: 3rem!important;
+    margin-left:2rem!important ;
+}
+.headingskills:hover{
+    color: rgb(0,255,255);
+}
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+    .skills{
+        height: 23rem;
+        width: 100vw;
+     
+    }
+    .headingskills{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .skills1{
+        height: 20rem;
+        width: 100vw;
+        display: flex;
+        
+    }
+    
+    .react{
+        height: 10rem;
+        width: 20vw;
+       margin-left: 1rem;
+        border-radius: 50%;
+        background-color: white;
+        
+    }
+    .reactimg2{
+        height: 4rem;
+
+
+   margin-left: 2.5rem;
+    margin-top: 3rem;
+        
+    
+    }
+    .htmlimg1{
+        margin-left: 4rem;
+    height: 5rem;
+    margin-top: 5rem;
+    }
+    .tailwind{
+        height: 10rem;
+        width: 20vw;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .tailwindimg1{
+        height: 4rem;
+        margin-top: 3rem;
+        margin-left:2rem ;
+    }
+    .headingskills:hover{
+        color: rgb(0,255,255);
+    }
+    
+} 
+/* For screens up to 767px width (typical mobile screens) */
+@media only screen and (max-width: 767px) {
+    .skills {
+        height: auto !important; /* Let the height adjust based on content */
+        width: 100vw !important;
+        padding: 2rem 0; /* Add padding for better spacing */
+        text-align: center; /* Center align text */
+    }
+
+    .headingskills {
+        font-size: 1.5rem !important; /* Adjust font size for mobile */
+    }
+
+    .skills1 {
+        height: auto !important; /* Let the height adjust based on content */
+        width: 100vw !important;
+        display: block !important; /* Reset display to default block */
+    }
+
+    .react,
+    .tailwind {
+        height: 8rem !important; /* Adjust height for mobile */
+        width: 80vw !important; /* Make elements full width */
+        margin: 1rem auto !important; /* Center the elements */
+        border-radius: 10px !important; /* Smaller border radius */
+        background-color: white !important;
+    }
+
+    .reactimg2,
+    .htmlimg1,
+    .tailwindimg1 {
+        height: 3rem !important; /* Adjust height for mobile */
+        margin-top: 1.5rem !important; /* Add margin for spacing */
+        margin-left: auto !important; /* Center align images */
+        margin-right: auto !important; /* Center align images */
+    }
+
+    .htmlimg1 {
+        margin-top: 2rem !important; /* Adjust margin for spacing */
+    }
+
+    .tailwindimg1 {
+        margin-top: 1rem !important; /* Adjust margin for spacing */
+    }
+
+    .headingskills:hover {
+        color: rgb(0, 255, 255) !important;
+    }
+}
